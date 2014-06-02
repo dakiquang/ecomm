@@ -2,7 +2,7 @@
 /**
  * @var yii\web\View $this
  */
-$this->title = 'My Yii Application';
+$this->title = 'Beginning Yii 2.0 - ecomm';
 ?>
 <div class="site-index">
 
@@ -20,7 +20,7 @@ $this->title = 'My Yii Application';
             <div class="col-lg-4">
                 <h2>Step 1</h2>
 
-                <p>THis is a 15 part tutorial on Beginning Yii 2.0. The object of the tutorial is to flesh out an ecommerce website. 
+                <p>This is a 15 part tutorial on Beginning Yii 2.0. The object of the tutorial is to flesh out an ecommerce website. 
                 Be sure that you follow the Tutorial on YouTube.</p>
 
                 <p><a class="btn btn-default" href="https://www.youtube.com/playlist?list=PLMyGpiUTm10799F8FfSai3wvlL4DB4qqX" target="_blank">PlayList &raquo;</a></p>
