@@ -1,6 +1,15 @@
-<<<<<<< HEAD
 Beginning Yii 2.0 Tutorial
 ==========================
+
+This is a tutoriaal for a 15 part YouTube video series. 
+The first one was a bit rough because I rushed it and covered a lot of ground.
+I will do a better job in the second part.
+
+In Part 1 we covered downloading and installing Composer for Windows, and the Yii 2.0 advanced framework.
+Below you will find the Yii specific info.
+
+I hope you enjoy this series.
+
 
 Yii 2 Advanced Application Template
 ===================================
