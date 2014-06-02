@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Beginning Yii 2.0 Tutorial
 ==========================
 
