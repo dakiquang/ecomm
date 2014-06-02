@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Beginning Yii 2.0 Tutorial
 ==========================
 
@@ -127,3 +128,9 @@ After that is done you should be able to run your tests, for example to run `fro
 In similar way you can run tests for other application tiers - `backend`, `console`, `common`.
 
 You also can adjust you application suite configs and `_bootstrap.php` settings to use other urls and files, as it is can be done in `yii2-basic`.
+=======
+ecomm
+=====
+
+Beginning Yii 2.0 Tutorial
+>>>>>>> b5490a727830e05d1596f25b35ce05a2b44b3e31
