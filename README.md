@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Beginning Yii 2.0 Tutorial
 ==========================
 
@@ -143,3 +144,9 @@ ecomm
 
 Beginning Yii 2.0 Tutorial
 >>>>>>> b5490a727830e05d1596f25b35ce05a2b44b3e31
+=======
+ecomm
+=====
+
+Yii 2.0 Tutorial code
+>>>>>>> cdc05fb080c0831de836e26c4b3d76100a791e38
