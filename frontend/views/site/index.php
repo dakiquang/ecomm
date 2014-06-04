@@ -41,8 +41,6 @@ $this->title = 'Beginning Yii 2.0 - ecomm';
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
                 
                  <p><a class="btn btn-default" href="https://packagist.org/search/?q=yii2">packagist &raquo;</a></p>
-                 
-                 <p>This is a test to see if GitHubis working corectly.</p>
             </div>
         </div>
     </div>
