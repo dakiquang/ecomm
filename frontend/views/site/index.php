@@ -39,7 +39,10 @@ $this->title = 'Beginning Yii 2.0 - ecomm';
                 <p>Now you may add additional extensions to your site. Be sure that they are for Yii 2.0.</p>
 
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+                
+                 <p><a class="btn btn-default" href="https://packagist.org/search/?q=yii2">packagist &raquo;</a></p>
             </div>
         </div>
     </div>
+    
 </div>
