@@ -31,16 +31,16 @@ $this->title = 'Beginning Yii 2.0 - ecomm';
                 <p>If you've gotten this far, you have already seen the first video and are ready for more.<br/>We will be coding ouy site pretty heavily and you will be able
                 to find the code on github as soon as I can get "a round tuit".</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">GitHub &raquo;</a></p>
+                <p><a class="btn btn-default" href="https://github.com/tskmatrix/ecomm" target="_blank">GitHub &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Step 3</h2>
 
                 <p>Now you may add additional extensions to your site. Be sure that they are for Yii 2.0.</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/" target="_blank">Yii Extensions &raquo;</a></p>
                 
-                 <p><a class="btn btn-default" href="https://packagist.org/search/?q=yii2">packagist &raquo;</a></p>
+                 <p><a class="btn btn-default" href="https://packagist.org/search/?q=yii2" target="_blank">packagist &raquo;</a></p>
             </div>
         </div>
     </div>

@@ -22,18 +22,19 @@ AppAsset::register($this);
     <?php $this->head() ?>
 </head>
 <body>
-    <?php $this->beginBody() ?>
+    <?php $this->beginBody() ?> 
     <div class="wrap">
         <?php
             NavBar::begin([
-                'brandLabel' => 'ecomm',
+                'brandLabel' => '<img src="img/logo_trans.png" width="90%" />', //ecomm',
                 'brandUrl' => Yii::$app->homeUrl,
                 'options' => [
-                    'class' => 'navbar-inverse navbar-fixed-top',
+                    'class' => 'navbar-inverse navbar-fixed-top', //
                 ],
             ]);
             $menuItems = [
                 ['label' => 'Home', 'url' => ['/site/index']],
+                ['label' => 'Shop', 'url' => ['/site/shop']],
                 ['label' => 'About', 'url' => ['/site/about']],
                 ['label' => 'Contact', 'url' => ['/site/contact']],
             ];
@@ -58,7 +59,9 @@ AppAsset::register($this);
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
-        <?= Alert::widget() ?>
+        <?= Alert::widget() ?>  
+        <!-- start page HTML -->
+        
         <?= $content ?>
         </div>
     </div>
