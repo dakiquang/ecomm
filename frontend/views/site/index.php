@@ -2,6 +2,7 @@
 /**
  * @var yii\web\View $this
  */
+use yii\bootstrap\Carousel;
 $this->title = 'Beginning Yii 2.0 - ecomm';
 ?>
 <div class="site-index">
@@ -15,7 +16,46 @@ $this->title = 'Beginning Yii 2.0 - ecomm';
     </div>
 
     <div class="body-content">
-
+        <!-- start page HTML -->
+        <div class="row-fluid">
+			<!-- Start Carousel -->
+			<section id="carousel">
+			<?php 
+			 echo Carousel::widget([
+			      'items' => [
+			          // the item contains both the image and the caption
+			          [
+			              'content' => '<img src="img/main-prod-1.png"/>',
+			              'caption' => '<h2 class="title"><span>Designed for eCommerce</span></h2>
+			 							<h3 class="subtitle"><span>HTML5 shop pages!</span></h3>
+	                                    <p class="description">
+	                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	                                        Pellentesque pulvinar fringilla eros quis euismod.
+	                                        Donec et urna libero, sed malesuada est.
+	                                    </p>
+	                                    <a href="store/product" class="btn">read more</a>',
+			              'options' => '',
+			          ],
+			 		  [
+			              'content' => '<img src="img/main-prod-2.png"/>',
+			              'caption' => '<h2 class="title"><span>Responsive Layout</span></h2>
+                                    <h3 class="subtitle"><span>Works great on any device!</span></h3>
+                                    <p class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Pellentesque pulvinar fringilla eros quis euismod.
+                                        Donec et urna libero, sed malesuada est.
+                                    </p>
+	                                    <a href="store/product" class="btn">read more</a>',
+			              'options' => '',
+			          ],
+			      ]
+			  ]);
+			 
+			?>
+			</section>
+			<!-- End Carousel -->
+        </div>
+			
         <div class="row">
             <div class="col-lg-4">
                 <h2>Step 1</h2>

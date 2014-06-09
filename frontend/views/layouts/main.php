@@ -5,6 +5,7 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 use frontend\widgets\Alert;
+use yii\bootstrap\Carousel;
 
 /**
  * @var \yii\web\View $this
@@ -59,9 +60,7 @@ AppAsset::register($this);
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
-        <?= Alert::widget() ?>  
-        <!-- start page HTML -->
-        
+        <?= Alert::widget() ?>
         <?= $content ?>
         </div>
     </div>
@@ -72,7 +71,9 @@ AppAsset::register($this);
         <p class="pull-right"><?= Yii::powered() ?></p>
         </div>
     </footer>
-
+<!--[if lt IE 9]>
+    <script src="assets/js/respond.js"></script>
+<![endif]-->
     <?php $this->endBody() ?>
 </body>
 </html>
