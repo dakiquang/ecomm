@@ -27,11 +27,11 @@ $this->title = 'Beginning Yii 2.0 - ecomm';
 			          // the item contains both the image and the caption
 			          [
 			              'content' => '<img src="img/main-prod-1.png"/>',
-			              'caption' => '<h2 class="title"><span>Designed for eCommerce</span></h2>
-			 							<h3 class="subtitle"><span>HTML5 shop pages!</span></h3>
+			              'caption' => '<h2>Designed for eCommerce</h2>
+			 							<h3>HTML5 shop pages!</h3>
 	                                    <p class="description">
-	                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-	                                        Pellentesque pulvinar fringilla eros quis euismod.
+	                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
+	                                        Pellentesque pulvinar fringilla eros quis.<br/>
 	                                        Donec et urna libero, sed malesuada est.
 	                                    </p>
 	                                    <a href="store/product" class="btn">read more</a>',
@@ -39,11 +39,11 @@ $this->title = 'Beginning Yii 2.0 - ecomm';
 			          ],
 			 		  [
 			              'content' => '<img src="img/main-prod-2.png"/>',
-			              'caption' => '<h2 class="title"><span>Responsive Layout</span></h2>
-                                    <h3 class="subtitle"><span>Works great on any device!</span></h3>
+			              'caption' => '<h2>Responsive Layout</h2>
+                                    <h3>Works great on any device!</h3>
                                     <p class="description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Pellentesque pulvinar fringilla eros quis euismod.
+                                        Lorem ipsum dolor sit amet, consectetur.<br/>
+                                        Pellentesque pulvinar fringilla eros quis.<br/>
                                         Donec et urna libero, sed malesuada est.
                                     </p>
 	                                    <a href="store/product" class="btn">read more</a>',
@@ -51,7 +51,6 @@ $this->title = 'Beginning Yii 2.0 - ecomm';
 			          ],
 			      ]
 			  ]);
-			 
 			?>
 			</section>
 			<!-- End Carousel -->
