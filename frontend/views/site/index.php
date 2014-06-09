@@ -3,6 +3,7 @@
  * @var yii\web\View $this
  */
 use yii\bootstrap\Carousel;
+
 $this->title = 'Beginning Yii 2.0 - ecomm';
 ?>
 <div class="site-index">
