@@ -27,7 +27,7 @@ $this->title = 'Beginning Yii 2.0 - ecomm';
                 <h2>Step 2</h2>
 
                 <p>If you've gotten this far, you have already seen the first video and are ready for more.<br/>
-                We will be coding ouy site pretty heavily and you will find the code on github.</p>
+                We will be coding our site pretty heavily and you will find the code on github.</p>
 
                 <p><a class="btn btn-default" href="https://github.com/tskmatrix/ecomm" target="_blank">GitHub &raquo;</a></p>
             </div>
