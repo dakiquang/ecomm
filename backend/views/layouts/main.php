@@ -25,17 +25,14 @@ AppAsset::register($this);
     <div class="wrap">
         <?php
             NavBar::begin([
-                'brandLabel' => 'MegaSale Administration',
+                'brandLabel' => 'My Company',
                 'brandUrl' => Yii::$app->homeUrl,
                 'options' => [
                     'class' => 'navbar-inverse navbar-fixed-top',
                 ],
             ]);
             $menuItems = [
-                ['label' => 'Home',      'url' => ['/site/index']],
-                ['label' => 'Users',     'url' => ['/user/index']],
-                ['label' => 'Products',  'url' => ['/product/index']],
-                ['label' => 'Suppliers', 'url' => ['/manufacturers/index']],
+                ['label' => 'Home', 'url' => ['/site/index']],
             ];
             if (Yii::$app->user->isGuest) {
                 $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
