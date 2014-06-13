@@ -80,4 +80,9 @@ class SiteController extends Controller
 
         return $this->goHome();
     }
+    
+    public function actionMyProfile()
+    {
+        return $this->render('profile');
+    }
 }

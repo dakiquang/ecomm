@@ -14,8 +14,12 @@ return [
     'modules' => [],
     'components' => [
         'user' => [
-            'identityClass' => 'common\models\User',
-            'enableAutoLogin' => true,
+        'identityClass' => 'common\models\User',
+        'enableAutoLogin' => false,
+        'identityCookie' => [
+        'name' => '_backendUser', // unique for backend
+        'path'=>'@administration'  // correct path for the backend app.
+        ]
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,

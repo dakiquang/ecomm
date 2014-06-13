@@ -42,3 +42,4 @@ $this->title = 'Beginning Yii 2.0 - ecomm';
             </div>
     </div> 
 </div>
+</div>
