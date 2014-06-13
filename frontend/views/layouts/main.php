@@ -11,6 +11,8 @@ use frontend\widgets\Alert;
  * @var string $content
  */
 AppAsset::register($this);
+
+
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -46,6 +48,10 @@ AppAsset::register($this);
                     'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
                     'url' => ['/site/logout'],
                     'linkOptions' => ['data-method' => 'post']
+                ];
+                $menuItems[] = [
+	                'label' => 'Administration',
+                    'url' =>  Yii::getAlias('@administration')
                 ];
             }
             echo Nav::widget([
